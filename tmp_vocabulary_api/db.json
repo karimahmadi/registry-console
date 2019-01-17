@@ -1,34 +1,35 @@
 {
   "vocab": [
     {
-      "key": "BASIS_OF_RECORD",
-      "title": {
-        "en": "Basis of record",
-        "da": "Evidens"
+      "key": "b167e1d0-1a4d-11e9-851e-fd85677a6d8e",
+      "namespace": "gbif.org",
+      "name": "BasisOfRecord",
+      "label": {
+        "eng": "Basis of record",
+        "dan": "Evidens"
       },
-      "description": {
-        "en": "What is the type of evidence for the record",
-        "da": "hvilken type evidens er der for observationen"
-      }
-    },
+      "definition": {
+        "eng": "What is the type of evidence for the record",
+        "dan": "hvilken type evidens er der for observationen"
+      },
+      "externalDefinitionUrl": [
+        "https://github.com/tdwg/website/issues/128"
+      ],
+      "editorialNotes": [
+        "#lorem ipsum\nsomething goes here"
+      ]
+    }
+  ],
+  "terms": [
     {
-      "key": "TYPE_STATUS",
-      "title": {
-        "en": "Type status",
-        "da": "Typestatus"
+      "key": "9d7d2b91-1a51-11e9-aeda-fde4640fb847",
+      "vocabularyKey": "234",
+      "name": "HumanObservation",
+      "label": {
+        "eng": "Human observation"
       },
-      "description": {
-        "en": "What is the type status of the record",
-        "da": "Har observationen en type (holo e.g.)"
-      }
-    },
-    {
-      "key": "LICENSE",
-      "title": {
-        "en": "License"
-      },
-      "description": {
-        "en": "What license do the record have (images not included)"
+      "definition": {
+        "eng": "A human being observed the species at the time and place it occurred and recorded it."
       }
     }
   ]

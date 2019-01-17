@@ -4,6 +4,7 @@
   "description": "temporary mock api as there is no vocabulary api yet",
   "main": "index.js",
   "scripts": {
+    "dev": "npx nodemon --ignore db.json index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,7 +13,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
-    "lowdb": "^1.0.0"
+    "lowdb": "^1.0.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
