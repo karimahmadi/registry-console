@@ -1,0 +1,35 @@
+{
+  "vocab": [
+    {
+      "key": "BASIS_OF_RECORD",
+      "title": {
+        "en": "Basis of record",
+        "da": "Evidens"
+      },
+      "description": {
+        "en": "What is the type of evidence for the record",
+        "da": "hvilken type evidens er der for observationen"
+      }
+    },
+    {
+      "key": "TYPE_STATUS",
+      "title": {
+        "en": "Type status",
+        "da": "Typestatus"
+      },
+      "description": {
+        "en": "What is the type status of the record",
+        "da": "Har observationen en type (holo e.g.)"
+      }
+    },
+    {
+      "key": "LICENSE",
+      "title": {
+        "en": "License"
+      },
+      "description": {
+        "en": "What license do the record have (images not included)"
+      }
+    }
+  ]
+}
